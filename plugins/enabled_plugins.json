@@ -1,0 +1,13 @@
+{
+  "enabled_plugins": ["image_resize", "text_extraction"],
+  "plugin_settings": {
+    "image_resize": {
+      "url_prefix": "/tools/image-resize",
+      "max_size": 1920
+    },
+    "text_extraction": {
+      "url_prefix": "/tools/extract-text",
+      "languages": ["eng", "spa", "fra"]
+    }
+  }
+}
